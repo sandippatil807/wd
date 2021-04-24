@@ -1,0 +1,90 @@
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+	background-image: url('../images/');
+	
+}
+{
+	font: 1.2em Helvetica, Arial, sans-serif;
+	margin: 20px;
+	padding: 0;
+	background-color: #eee;
+  }
+  .wrap {
+	width: 90%;
+	margin: 2em auto;
+  }
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#mainheader{
+	
+	background-color: rgb(194, 194, 194);
+	animation-name: example;
+	animation-duration: 4s;
+  }
+  
+  @keyframes example {
+	0%   {background-color: rgb(255, 183, 183);}
+	25%  {background-color: rgb(255, 255, 184);}
+	50%  {background-color: rgb(205, 205, 255);}
+	100% {background-color: rgb(155, 253, 155);}
+  }
+  
+#navigation{
+	background-color:#333;
+	color:#fff;
+}
+
+#navigation ul{
+	padding:0;
+	list-style: none;
+}
+
+#navigation li{
+	display: inline;
+}
+
+#navigation a{
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;
+	font-size: 18px;
+}
+.common{
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.common h1{
+	text-align: center;
+
+}
+
+
+#mainfooter{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding: 30px;
+	margin-top:60px;
+}
+
+.twitter-timeline{
+    margin-left: 180px;
+    padding: 40%;
+}
+
+.follow{
+    text-align: center;
+    padding: 30%;
+}
